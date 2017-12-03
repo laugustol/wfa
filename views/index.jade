@@ -1,0 +1,16 @@
+extends ./layout.jade
+block container
+	div
+		h2 WAF
+			img.logo(src="logo.png")
+		h4 Web for Arduino
+	.row
+		.col.s12.center-align
+			h5 CHOOSE LED
+	.row
+		.col.s4
+			button#led9.btn.blue.lighten-1 LED 1 (9/GND)
+		.col.s4
+			button#led10.btn.blue.lighten-1 LED 2 (10/GND)
+		.col.s4
+			button#led11.btn.blue.lighten-1 LED 3 (11/GND)

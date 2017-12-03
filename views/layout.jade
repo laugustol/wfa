@@ -1,0 +1,23 @@
+doctype html
+html(lang="es")
+	head
+		title WAF
+		meta(charset="utf-8")
+		script(src="jquery-3.2.1.min.js")
+		script(src="materialize/js/materialize.min.js")
+		link(rel="stylesheet", href="materialize/css/materialize.min.css")
+		link(rel="stylesheet", href="style.min.css")
+		link(rel="stylesheet", href="font-awesome/css/font-awesome.min.css")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		link(rel="icon" type="image/png" href="logo.png")
+
+		script(src="/socket.io/socket.io.js")
+		script(src="socket.min.js")
+	body
+		.container
+			block container
+		footer.page-footer.blue.lightend-2
+			.footer-copyright 
+				.container Created By: Augusto Alvarez 
+					a(href="https://github.com/laugustol/wfa" style="color:black;")
+						i.fa.fa-github.fa-2x
