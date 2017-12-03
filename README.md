@@ -1,3 +1,3 @@
 # WFA
 Web for Arduino
-![GitHub Logo](url "https://github.com/laugustol/wfa/blob/master/public/logo.png")
+![Logo](url "https://cdn.instructables.com/ORIG/FMJ/FMG5/IMZ65K95/FMJFMG5IMZ65K95.png")
