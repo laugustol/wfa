@@ -1,3 +1,3 @@
 # WFA
 Web for Arduino
-![GitHub Logo](url "public/logo.png")
+![GitHub Logo](url "https://github.com/laugustol/wfa/blob/master/public/logo.png")
