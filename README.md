@@ -1,1 +1,2 @@
-# wfa
+# WFA
+Web for Arduino
