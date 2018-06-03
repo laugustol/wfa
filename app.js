@@ -16,10 +16,17 @@ var board = new five.Board({
  
 board.on("ready", function() {
   var leds = new five.Leds([9, 10, 11]);
+  var statusOne,statusTwo,statusThree=0;
   socketIO.on('connection',function(io){
   	console.log("Connection with the client");
   	io.on("ledOne",function(){
-  		leds[0].blink(300);
+		if(!statusOne){
+			leds[0].on();
+			statusOne=1;
+		}else{
+			leds[0].off();
+			statusOne=0;
+		}  		
   		console.log("ledOne");
   	});
   	io.on("ledTwo",function(){
