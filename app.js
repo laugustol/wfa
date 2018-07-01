@@ -15,7 +15,7 @@ var board = new five.Board({
 });
  
 board.on("ready", function() {
-  var leds = new five.Leds([9, 10, 11]);
+  var leds = new five.Leds([8, 10, 11]);
   var statusOne,statusTwo,statusThree=0;
   socketIO.on('connection',function(io){
   	console.log("Connection with the client");
@@ -27,7 +27,7 @@ board.on("ready", function() {
 			leds[0].off();
 			statusOne=0;
 		}  		
-  		console.log("ledOne");
+  		console.log("ledOne" + statusOne);
   	});
   	io.on("ledTwo",function(){
   		leds[1].blink(300);
