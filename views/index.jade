@@ -1,19 +1,30 @@
 extends ./layout.jade
 block container
 	div
-		h2 WAF
+		h2 WFA
 			img.logo(src="logo.png")
 		h4 Web for Arduino
 	.row
 		.col.s12.center-align
 			h5 CHOOSE LED
 	.row.center-align
+		
 		.col.s4
-			button#led9.btn.blue.lighten-1 LED 1 (9/GND)
+			div.switch
+				label Aire (9/GND)
+					input#led9(type='checkbox')
+					span.lever
 		.col.s4
-			button#led10.btn.blue.lighten-1 LED 2 (10/GND)
+			div.switch
+				label Luz (10/GND)
+					input#led10(type='checkbox')
+					span.lever
 		.col.s4
-			button#led11.btn.blue.lighten-1 LED 3 (11/GND)
+			div.switch
+				label Luz (11/GND)
+					input#led11(type='checkbox')
+					span.lever
 	.row
 		.col.s12
-			img.circuit(src="circuit.png")
+			.terminal
+					

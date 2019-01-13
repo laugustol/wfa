@@ -1,1 +1,1 @@
-.logo{height:40px;width:40px}.circuit{width:100%}
+.logo{height:40px;width:40px}.circuit{width:100%}.switch label input[type=checkbox]:checked+.lever{background-color:#2196f3}.switch label input[type=checkbox]:checked+.lever:after{background-color:#64b5f6}

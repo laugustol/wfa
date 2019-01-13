@@ -5,3 +5,28 @@
 .circuit{
 	width: 100%;
 }
+.switch label input[type=checkbox]:checked+.lever{
+	background-color: #2196f3;
+}
+.switch label input[type=checkbox]:checked+.lever:after{
+	background-color: #64b5f6;
+}
+
+.terminal{
+	position: relative;
+	height: 300px;
+	overflow-y: scroll;
+	border: none !important;
+	padding: 8px 10px !important;
+	font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	font-weight: 500;
+	margin-bottom: 0 !important;
+	background-color: #444444 !important;
+	color: #ffffff;
+}
+.terminal-line{
+	word-break: break-all;
+}
+.terminal-time{
+	color: #7f7f7f;
+}
